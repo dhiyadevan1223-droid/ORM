@@ -35,6 +35,7 @@ Apply the migration files of the created app to the database
 Execute Django admin using localhost and create details for 10 entries
 
 ## PROGRAM
+```
 models.py
 from django.db import models
 from django.contrib import admin
@@ -56,7 +57,7 @@ from django.contrib import admin
 from.models import cars,carsAdmin
 
 admin.site.register(cars,carsAdmin)
-
+```
 
 ## OUTPUT
 
